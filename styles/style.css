@@ -17,16 +17,12 @@
 }
 
 body{
-    /* height: 100vh; */
-
-    /* vh: VIEWPORT, em computação gráfica, a viewport é a porção de área visível de um plano e é utilizada como unidade de medida no CSS para criar páginas Web 100% responsivas.*/
     
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
 
 
     box-sizing: border-box;
-    /* Faz com que o elemento filho nunca saia da área do elemento pai. */
 }
 
 .cabecalho{
@@ -59,7 +55,6 @@ body{
 .apresentacao{
     display: flex;
     align-items: center;
-    /* Alinha os itens dentro da tag pai conforme o centro dos mesmos */
     justify-content: space-between;
     padding: 5% 5%;
     gap: 82px;
@@ -110,7 +105,6 @@ body{
     border: 2px solid var(--cor-terciaria);
     width: 50%;
     text-align: center;
-    /* Alinha o texto dentro do espaço total*/
     border-radius: 8px;
     font-size: 1.5rem;
     padding: 21.5px 0;
